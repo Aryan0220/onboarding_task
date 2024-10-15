@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan's Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <p class="nav-heading">Aryan Bargal</p>
+            <ul class="nav-list">
+                <li class="nav-list-items"><a href="#about">About</a></li>
+                <li class="nav-list-items"><a href="#projects">Projects</a></li>
+                <li  class="nav-list-items"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <img class="hero-img" src="./assets/hero.jpeg" alt="">
+            <div class="hero-content">
+                <h1 class="hero-heading">Hi, I'm Aryan Bargal</h1>
+                <p class="hero-description">I'm a Web Developer</p>
+            </div>
+        </div>
+
+    <section id="about">
+        <h1 class="heading" >About Me</h1>
+        <p class="about-me">Hi everyone I'm Aryan Bargal currently I am student at Maulana Azad National Institute of Technology Bhopal. I am also a Web Developer, working with various technologies like HTML, CSS, JAVASCRIPT, REACT.js, and many more.</p>
+    </section>
+    
+    <section id="projects">
+        <h1 class="heading" >Projects</h1>
+        <div class="project-list">
+            <div class="project-card">
+                <h3 class="card-heading">Weather App</h3>
+                <img class="project-img" src="./assets/weather.jpeg" alt="">
+                <p class="card-description">Created a weather app to search and display the weather of the entered location using weather API.</p>
+                <p class="card-description-techstack">Technologies used: HTML, CSS, JAVASCRIPT</p>
+            </div>
+            <div class="project-card">
+                <h3 class="card-heading">To-Do List</h3>
+                <img class="project-img" src="./assets/todo.jpeg" alt="">
+                <p class="card-description">Created a to do list web application where users can create, update and delete task.</p>
+                <p class="card-description-techstack">Technologies used: HTML, CSS, JAVASCRIPT</p>
+            </div>
+            <div class="project-card">
+                <h3 class="card-heading">Sorting Visualiser</h3>
+                <img class="project-img" src="./assets/sort.png" alt="">
+                <p class="card-description">Created a web application that helps to visualise different sorting algorithms.</p>
+                <p class="card-description-techstack">Technologies used: HTML, CSS, JAVASCRIPT</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="" method="get" class="contact-form">
+            <div class="conact-form-container">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="message-area">
+                    <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button class="contact-form-submit-button" type="submit">Submit</button>
+            </div>
+            
+        </form>
+
+    </section>
+
+    <footer>Copyright © 2024. All Rights Reserved</footer>
+
+</body>
+<script src="./index.js"></script>
+</html>
